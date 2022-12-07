@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    background-color: rgb(19, 40, 76);
+}
+
+#text1 {
+    color: rgb(177, 16, 43);
+    font-size: 35px;
+}
+
+#board {
+    display: none;
+}
+
+.cell {
+    height: 70px;
+    width: 70px;
+    border: 5px solid navy;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.redPiece {
+    background-color: red;
+}
+
+.yellowPiece {
+    background-color: yellow;
+}
+
+.orangePiece {
+    background-color: orange;
+}
+
+.greenPiece {
+    background-color: green;
+}
+
+#timer {
+    background-color: gray;
+    border: 2px solid black;
+    height: 25%;
+    width: 10%;
+    margin-left: 45%;
+    border-radius: 10px;
+    display: none;
+}
+
+#restart {
+    display: none;
+    margin-top: 1px;
+    margin-left:2px; 
+    top: 0; 
+    left:0; 
+    width: 10em;
+    height: 2em;
+    font-size: 12pt; 
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    border: none; 
+    text-align: center;
+    border-radius: 30px;
+    background-color: gray;
+
+}
+
+#home {
+    color: rgb(177, 16, 43);
+    background-color: gray;
+    border-radius: 30px;
+}
+
+div a button{
+    width: 10em;
+    height: 2em; 
+    font-size: 12pt;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0;
+    right:0; 
+    color: black; 
+    cursor: pointer; 
+    border: none; 
+}
+
+
+div a button{
+    width: 10em;
+    height: 2em; 
+    font-size: 12pt;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0;
+    right:0; 
+    color: black; 
+    cursor: pointer; 
+    border: none; 
+}
+
+#setBig {
+    color: blue;
+    width: 405px;
+    height: 360px;
+    cursor: pointer;
+}
+#setSmall {
+   color: blue;
+    width: 315px;
+    height: 270px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+#sizeButtons {
+    display: block;
+    display: inline-block;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(177, 16, 43);
+}
+
+#bigBoardSelect {
+    display: inline-block;
+}
+#smallBoardSelect {
+    display: inline-block;
+}
+
+#winner {
+    color: rgb(177, 16, 43);
+}
